@@ -34,7 +34,7 @@ Les xassidas et leur traductions (si disponible) doivent respecter ce format
   
   Ex:
 
-![example.png](xassidas/example.png)
+![example.png](example.png)
 
 ## Pour les Developpeurs
 

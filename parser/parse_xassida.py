@@ -6,7 +6,7 @@ from itertools import groupby
 from pathlib import Path
 
 from models import Chapter, Verse, Word, Xassida
-from transliterator.transliterator import ArabTransliterator
+from transcription.transliterator import ArabTransliterator
 
 to_unicode = ArabTransliterator()
 

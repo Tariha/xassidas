@@ -1,0 +1,1731 @@
+{
+  "name": "ya_kaachifa_dai",
+  "chapters": [
+    {
+      "name": "",
+      "number": 1,
+      "verses": [
+        {
+          "number": 0,
+          "key": "1:0",
+          "text": "يَا كَاسِفَ الدَّءِ وَلاَسْوَا وَ أَضْرَارِ مُفِيضَ أَبْحُرِ أَنْوَارٍ وَأَسْرَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 1,
+              "text": "كَاسِفَ",
+              "transcription": "kāsifa"
+            },
+            {
+              "position": 2,
+              "text": "الدَّءِ",
+              "transcription": "d-da'i"
+            },
+            {
+              "position": 3,
+              "text": "وَلاَسْوَا",
+              "transcription": "walaswā"
+            },
+            {
+              "position": 4,
+              "text": "وَ",
+              "transcription": "wa"
+            },
+            {
+              "position": 5,
+              "text": "أَضْرَارِ",
+              "transcription": "aḍrāri"
+            },
+            {
+              "position": 6,
+              "text": "مُفِيضَ",
+              "transcription": "mufīḍa"
+            },
+            {
+              "position": 7,
+              "text": "أَبْحُرِ",
+              "transcription": "abḥuri"
+            },
+            {
+              "position": 8,
+              "text": "أَنْوَارٍ",
+              "transcription": "anwārin"
+            },
+            {
+              "position": 9,
+              "text": "وَأَسْرَارِ",
+              "transcription": "wa'asrāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 1,
+          "key": "1:1",
+          "text": "بِالاِخْتِيَارِ كَمَا قَدْ شَآءَ جَلَّ إِلَى أَحِبَّةٍ كَانَ أَخْيَارًا وَأَحْرَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "بِالاِخْتِيَارِ",
+              "transcription": "bilikhtiyāri"
+            },
+            {
+              "position": 1,
+              "text": "كَمَا",
+              "transcription": "kamā"
+            },
+            {
+              "position": 2,
+              "text": "قَدْ",
+              "transcription": "qad"
+            },
+            {
+              "position": 3,
+              "text": "شَآءَ",
+              "transcription": "sha’ā'a"
+            },
+            {
+              "position": 4,
+              "text": "جَلَّ",
+              "transcription": "jalla"
+            },
+            {
+              "position": 5,
+              "text": "إِلَى",
+              "transcription": "ilá"
+            },
+            {
+              "position": 6,
+              "text": "أَحِبَّةٍ",
+              "transcription": "aḥibbatin"
+            },
+            {
+              "position": 7,
+              "text": "كَانَ",
+              "transcription": "kāna"
+            },
+            {
+              "position": 8,
+              "text": "أَخْيَارًا",
+              "transcription": "akhyāran"
+            },
+            {
+              "position": 9,
+              "text": "وَأَحْرَارِ",
+              "transcription": "wa'aḥrāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 2,
+          "key": "1:2",
+          "text": "يَآ أَكْرَمَ الْكُرَمَآ يَآ أَرْحَمَ الرُّحَمَآ يَآ أَلْطَفَ اللُّفَ يَابَرْدَ أَحْرَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "يَآ",
+              "transcription": "ya"
+            },
+            {
+              "position": 1,
+              "text": "أَكْرَمَ",
+              "transcription": "akrama"
+            },
+            {
+              "position": 2,
+              "text": "الْكُرَمَآ",
+              "transcription": "l-kurama"
+            },
+            {
+              "position": 3,
+              "text": "يَآ",
+              "transcription": "ya"
+            },
+            {
+              "position": 4,
+              "text": "أَرْحَمَ",
+              "transcription": "arḥama"
+            },
+            {
+              "position": 5,
+              "text": "الرُّحَمَآ",
+              "transcription": "r-ruḥama"
+            },
+            {
+              "position": 6,
+              "text": "يَآ",
+              "transcription": "ya"
+            },
+            {
+              "position": 7,
+              "text": "أَلْطَفَ",
+              "transcription": "alṭafa"
+            },
+            {
+              "position": 8,
+              "text": "اللُّفَ",
+              "transcription": "l-lufa"
+            },
+            {
+              "position": 9,
+              "text": "يَابَرْدَ",
+              "transcription": "yābarda"
+            },
+            {
+              "position": 10,
+              "text": "أَحْرَارِ",
+              "transcription": "aḥrāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 3,
+          "key": "1:3",
+          "text": "مَنْ لاَّ يُخَيِّبُ عَبْدًا جَآءَ يَسْأَ لُهُ يَا مَا نِعًا عَن وُأَلٍ صَعْرَ أَحْرَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "مَنْ",
+              "transcription": "man"
+            },
+            {
+              "position": 1,
+              "text": "لاَّ",
+              "transcription": "la"
+            },
+            {
+              "position": 2,
+              "text": "يُخَيِّبُ",
+              "transcription": "yukhayyibu"
+            },
+            {
+              "position": 3,
+              "text": "عَبْدًا",
+              "transcription": "ʿabdan"
+            },
+            {
+              "position": 4,
+              "text": "جَآءَ",
+              "transcription": "ja’ā'a"
+            },
+            {
+              "position": 5,
+              "text": "يَسْأَ",
+              "transcription": "yas'a"
+            },
+            {
+              "position": 6,
+              "text": "لُهُ",
+              "transcription": "luhu"
+            },
+            {
+              "position": 7,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 8,
+              "text": "مَا",
+              "transcription": "mā"
+            },
+            {
+              "position": 9,
+              "text": "نِعًا",
+              "transcription": "niʿan"
+            },
+            {
+              "position": 10,
+              "text": "عَن",
+              "transcription": "ʿan"
+            },
+            {
+              "position": 11,
+              "text": "وُأَلٍ",
+              "transcription": "wu'alin"
+            },
+            {
+              "position": 12,
+              "text": "صَعْرَ",
+              "transcription": "ṣaʿra"
+            },
+            {
+              "position": 13,
+              "text": "أَحْرَارِ",
+              "transcription": "aḥrāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 4,
+          "key": "1:4",
+          "text": "يَا اللَهُ يَا رَبَّنَا غَفَّارَ زَلَّتِنَا يَا هَادِيًا ذَاضَلاَلٍ حَا ئِرًا سَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 1,
+              "text": "اللَهُ",
+              "transcription": "l-lahu"
+            },
+            {
+              "position": 2,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 3,
+              "text": "رَبَّنَا",
+              "transcription": "rabbanā"
+            },
+            {
+              "position": 4,
+              "text": "غَفَّارَ",
+              "transcription": "ghaffāra"
+            },
+            {
+              "position": 5,
+              "text": "زَلَّتِنَا",
+              "transcription": "zallatinā"
+            },
+            {
+              "position": 6,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 7,
+              "text": "هَادِيًا",
+              "transcription": "hādīan"
+            },
+            {
+              "position": 8,
+              "text": "ذَاضَلاَلٍ",
+              "transcription": "dhāḍalalin"
+            },
+            {
+              "position": 9,
+              "text": "حَا",
+              "transcription": "ḥā"
+            },
+            {
+              "position": 10,
+              "text": "ئِرًا",
+              "transcription": "iran"
+            },
+            {
+              "position": 11,
+              "text": "سَارِي",
+              "transcription": "sārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 5,
+          "key": "1:5",
+          "text": "إِنِّي أُصِبْتُ بِدَآءٍ لاَّ طَبِيبَ لَهُ سَوَا الَّذِي كُلَّ يَوْمٍ شَأْنُهُ جَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "إِنِّي",
+              "transcription": "inī"
+            },
+            {
+              "position": 1,
+              "text": "أُصِبْتُ",
+              "transcription": "uṣibtu"
+            },
+            {
+              "position": 2,
+              "text": "بِدَآءٍ",
+              "transcription": "bida’ā'in"
+            },
+            {
+              "position": 3,
+              "text": "لاَّ",
+              "transcription": "la"
+            },
+            {
+              "position": 4,
+              "text": "طَبِيبَ",
+              "transcription": "ṭabība"
+            },
+            {
+              "position": 5,
+              "text": "لَهُ",
+              "transcription": "lahu"
+            },
+            {
+              "position": 6,
+              "text": "سَوَا",
+              "transcription": "sawā"
+            },
+            {
+              "position": 7,
+              "text": "الَّذِي",
+              "transcription": "l-ladhī"
+            },
+            {
+              "position": 8,
+              "text": "كُلَّ",
+              "transcription": "kulla"
+            },
+            {
+              "position": 9,
+              "text": "يَوْمٍ",
+              "transcription": "yawmin"
+            },
+            {
+              "position": 10,
+              "text": "شَأْنُهُ",
+              "transcription": "sha'nuhu"
+            },
+            {
+              "position": 11,
+              "text": "جَارِي",
+              "transcription": "jārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 6,
+          "key": "1:6",
+          "text": "وَ الدَّآءُ يَارَبِّ أَضْنَانِي وَأَدْنَفَنِي عَجَّلْ إِغَا ثَتَنَا يَا خَالِقُ الْبَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَ",
+              "transcription": "wa"
+            },
+            {
+              "position": 1,
+              "text": "الدَّآءُ",
+              "transcription": "d-da’ā'u"
+            },
+            {
+              "position": 2,
+              "text": "يَارَبِّ",
+              "transcription": "yārabbi"
+            },
+            {
+              "position": 3,
+              "text": "أَضْنَانِي",
+              "transcription": "aḍnānī"
+            },
+            {
+              "position": 4,
+              "text": "وَأَدْنَفَنِي",
+              "transcription": "wa'adnafanī"
+            },
+            {
+              "position": 5,
+              "text": "عَجَّلْ",
+              "transcription": "ʿajjal"
+            },
+            {
+              "position": 6,
+              "text": "إِغَا",
+              "transcription": "ighā"
+            },
+            {
+              "position": 7,
+              "text": "ثَتَنَا",
+              "transcription": "thatanā"
+            },
+            {
+              "position": 8,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 9,
+              "text": "خَالِقُ",
+              "transcription": "khāliqu"
+            },
+            {
+              "position": 10,
+              "text": "الْبَارِي",
+              "transcription": "l-bārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 7,
+          "key": "1:7",
+          "text": "إِنِّي وَإِنْ كَانَ أَثْوَابِي مُدَ نَّسَةً بَمَآءِ عَفْوِكَ أَرْجُو غَسْلَ أَقْذَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "إِنِّي",
+              "transcription": "inī"
+            },
+            {
+              "position": 1,
+              "text": "وَإِنْ",
+              "transcription": "wa'in"
+            },
+            {
+              "position": 2,
+              "text": "كَانَ",
+              "transcription": "kāna"
+            },
+            {
+              "position": 3,
+              "text": "أَثْوَابِي",
+              "transcription": "athwābī"
+            },
+            {
+              "position": 4,
+              "text": "مُدَ",
+              "transcription": "muda"
+            },
+            {
+              "position": 5,
+              "text": "نَّسَةً",
+              "transcription": "nasatan"
+            },
+            {
+              "position": 6,
+              "text": "بَمَآءِ",
+              "transcription": "bama’ā'i"
+            },
+            {
+              "position": 7,
+              "text": "عَفْوِكَ",
+              "transcription": "ʿafwika"
+            },
+            {
+              "position": 8,
+              "text": "أَرْجُو",
+              "transcription": "arjū"
+            },
+            {
+              "position": 9,
+              "text": "غَسْلَ",
+              "transcription": "ghasla"
+            },
+            {
+              "position": 10,
+              "text": "أَقْذَارِ",
+              "transcription": "aqdhāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 8,
+          "key": "1:8",
+          "text": "وَرَحْمَةُ اللَهِ كُلَّ الْخَلْقِ قَدْ وَسِعَتْ مِنْ فَا جِرٍ وَمُطِيعٍ زَاهِدٍ بَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَرَحْمَةُ",
+              "transcription": "waraḥmatu"
+            },
+            {
+              "position": 1,
+              "text": "اللَهِ",
+              "transcription": "l-lahi"
+            },
+            {
+              "position": 2,
+              "text": "كُلَّ",
+              "transcription": "kulla"
+            },
+            {
+              "position": 3,
+              "text": "الْخَلْقِ",
+              "transcription": "l-khalqi"
+            },
+            {
+              "position": 4,
+              "text": "قَدْ",
+              "transcription": "qad"
+            },
+            {
+              "position": 5,
+              "text": "وَسِعَتْ",
+              "transcription": "wasiʿat"
+            },
+            {
+              "position": 6,
+              "text": "مِنْ",
+              "transcription": "min"
+            },
+            {
+              "position": 7,
+              "text": "فَا",
+              "transcription": "fā"
+            },
+            {
+              "position": 8,
+              "text": "جِرٍ",
+              "transcription": "jirin"
+            },
+            {
+              "position": 9,
+              "text": "وَمُطِيعٍ",
+              "transcription": "wamuṭīʿin"
+            },
+            {
+              "position": 10,
+              "text": "زَاهِدٍ",
+              "transcription": "zāhidin"
+            },
+            {
+              "position": 11,
+              "text": "بَارِي",
+              "transcription": "bārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 9,
+          "key": "1:9",
+          "text": "لَوْ كَانَ بَابُكَ لَا يَا تِيهِ ذُو إِثَمٍ فَمَآدُّ عِيتَ غَفُورًا كُلَّ أَوْزَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "لَوْ",
+              "transcription": "law"
+            },
+            {
+              "position": 1,
+              "text": "كَانَ",
+              "transcription": "kāna"
+            },
+            {
+              "position": 2,
+              "text": "بَابُكَ",
+              "transcription": "bābuka"
+            },
+            {
+              "position": 3,
+              "text": "لَا",
+              "transcription": "lā"
+            },
+            {
+              "position": 4,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 5,
+              "text": "تِيهِ",
+              "transcription": "tīhi"
+            },
+            {
+              "position": 6,
+              "text": "ذُو",
+              "transcription": "dhū"
+            },
+            {
+              "position": 7,
+              "text": "إِثَمٍ",
+              "transcription": "ithamin"
+            },
+            {
+              "position": 8,
+              "text": "فَمَآدُّ",
+              "transcription": "fama’āddu"
+            },
+            {
+              "position": 9,
+              "text": "عِيتَ",
+              "transcription": "ʿīta"
+            },
+            {
+              "position": 10,
+              "text": "غَفُورًا",
+              "transcription": "ghafūran"
+            },
+            {
+              "position": 11,
+              "text": "كُلَّ",
+              "transcription": "kulla"
+            },
+            {
+              "position": 12,
+              "text": "أَوْزَارِي",
+              "transcription": "awzārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 10,
+          "key": "1:10",
+          "text": "خَاطَبْتُ رَبِّي خِطَابًا لاًّيَلِيقُ بِنَا فَغْفِرْ لِعَبْدٍ مِّنَ الْئَاثَامِ حَيَّارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "خَاطَبْتُ",
+              "transcription": "khāṭabtu"
+            },
+            {
+              "position": 1,
+              "text": "رَبِّي",
+              "transcription": "rabbī"
+            },
+            {
+              "position": 2,
+              "text": "خِطَابًا",
+              "transcription": "khiṭāban"
+            },
+            {
+              "position": 3,
+              "text": "لاًّيَلِيقُ",
+              "transcription": "lanyalīqu"
+            },
+            {
+              "position": 4,
+              "text": "بِنَا",
+              "transcription": "binā"
+            },
+            {
+              "position": 5,
+              "text": "فَغْفِرْ",
+              "transcription": "faghfir"
+            },
+            {
+              "position": 6,
+              "text": "لِعَبْدٍ",
+              "transcription": "liʿabdin"
+            },
+            {
+              "position": 7,
+              "text": "مِّنَ",
+              "transcription": "mina"
+            },
+            {
+              "position": 8,
+              "text": "الْئَاثَامِ",
+              "transcription": "l-āthāmi"
+            },
+            {
+              "position": 9,
+              "text": "حَيَّارِ",
+              "transcription": "ḥayyāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 11,
+          "key": "1:11",
+          "text": "وَفِي كِتَابِكَ رَبِّي إِنَّمَا الصَّدَقَا تُ رَبِّ لِلْفُقَرَآ مِنْ دُونِ إِنْكَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَفِي",
+              "transcription": "wafī"
+            },
+            {
+              "position": 1,
+              "text": "كِتَابِكَ",
+              "transcription": "kitābika"
+            },
+            {
+              "position": 2,
+              "text": "رَبِّي",
+              "transcription": "rabbī"
+            },
+            {
+              "position": 3,
+              "text": "إِنَّمَا",
+              "transcription": "innamā"
+            },
+            {
+              "position": 4,
+              "text": "الصَّدَقَا",
+              "transcription": "ṣ-ṣadaqā"
+            },
+            {
+              "position": 5,
+              "text": "تُ",
+              "transcription": "tu"
+            },
+            {
+              "position": 6,
+              "text": "رَبِّ",
+              "transcription": "rabbi"
+            },
+            {
+              "position": 7,
+              "text": "لِلْفُقَرَآ",
+              "transcription": "lilfuqara"
+            },
+            {
+              "position": 8,
+              "text": "مِنْ",
+              "transcription": "min"
+            },
+            {
+              "position": 9,
+              "text": "دُونِ",
+              "transcription": "dūni"
+            },
+            {
+              "position": 10,
+              "text": "إِنْكَارِ",
+              "transcription": "inkāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 12,
+          "key": "1:12",
+          "text": "إِنِّي فَقِيرٌ وَمِسْكِينٌ وَمُنْكَسِرٌ مَاحْتَاجَ غَيْرَكَ فِي تَيْسِيرِ أَوْطَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "إِنِّي",
+              "transcription": "inī"
+            },
+            {
+              "position": 1,
+              "text": "فَقِيرٌ",
+              "transcription": "faqīrun"
+            },
+            {
+              "position": 2,
+              "text": "وَمِسْكِينٌ",
+              "transcription": "wamiskīnun"
+            },
+            {
+              "position": 3,
+              "text": "وَمُنْكَسِرٌ",
+              "transcription": "wamunkasirun"
+            },
+            {
+              "position": 4,
+              "text": "مَاحْتَاجَ",
+              "transcription": "māḥtāja"
+            },
+            {
+              "position": 5,
+              "text": "غَيْرَكَ",
+              "transcription": "ghayraka"
+            },
+            {
+              "position": 6,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 7,
+              "text": "تَيْسِيرِ",
+              "transcription": "taysīri"
+            },
+            {
+              "position": 8,
+              "text": "أَوْطَارِي",
+              "transcription": "awṭārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 13,
+          "key": "1:13",
+          "text": "أَنْتَ وَلِّييَ فِي الدُّنْيَا وَضَرَّتِهَا تَوَفَّنِي مُسْلِمً فِي رَهْطِ أَبْرَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "أَنْتَ",
+              "transcription": "anta"
+            },
+            {
+              "position": 1,
+              "text": "وَلِّييَ",
+              "transcription": "wallīya"
+            },
+            {
+              "position": 2,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 3,
+              "text": "الدُّنْيَا",
+              "transcription": "d-dunyā"
+            },
+            {
+              "position": 4,
+              "text": "وَضَرَّتِهَا",
+              "transcription": "waḍarratihā"
+            },
+            {
+              "position": 5,
+              "text": "تَوَفَّنِي",
+              "transcription": "tawaffanī"
+            },
+            {
+              "position": 6,
+              "text": "مُسْلِمً",
+              "transcription": "musliman"
+            },
+            {
+              "position": 7,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 8,
+              "text": "رَهْطِ",
+              "transcription": "rahṭi"
+            },
+            {
+              "position": 9,
+              "text": "أَبْرَارِ",
+              "transcription": "abrāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 14,
+          "key": "1:14",
+          "text": "هَبْلِي إِلَهِيَ رَبِّ تَوْبَةً كَمُلَتْ وَاسْتُرْ خَطَا يَايَ رَبِّي أَيَّ أَسْتَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "هَبْلِي",
+              "transcription": "hablī"
+            },
+            {
+              "position": 1,
+              "text": "إِلَهِيَ",
+              "transcription": "ilahiya"
+            },
+            {
+              "position": 2,
+              "text": "رَبِّ",
+              "transcription": "rabbi"
+            },
+            {
+              "position": 3,
+              "text": "تَوْبَةً",
+              "transcription": "tawbatan"
+            },
+            {
+              "position": 4,
+              "text": "كَمُلَتْ",
+              "transcription": "kamulat"
+            },
+            {
+              "position": 5,
+              "text": "وَاسْتُرْ",
+              "transcription": "wāstur"
+            },
+            {
+              "position": 6,
+              "text": "خَطَا",
+              "transcription": "khaṭā"
+            },
+            {
+              "position": 7,
+              "text": "يَايَ",
+              "transcription": "yāya"
+            },
+            {
+              "position": 8,
+              "text": "رَبِّي",
+              "transcription": "rabbī"
+            },
+            {
+              "position": 9,
+              "text": "أَيَّ",
+              "transcription": "ayya"
+            },
+            {
+              "position": 10,
+              "text": "أَسْتَارِ",
+              "transcription": "astāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 15,
+          "key": "1:15",
+          "text": "وَالصَّبْرُ عَن شَهَوَاتِ النَّفْسِ ثُمَّ عَلَ مَصَآ ئِبَ رَبَّنَا فِي هَذِهِ الدَّارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَالصَّبْرُ",
+              "transcription": "wāṣṣabru"
+            },
+            {
+              "position": 1,
+              "text": "عَن",
+              "transcription": "ʿan"
+            },
+            {
+              "position": 2,
+              "text": "شَهَوَاتِ",
+              "transcription": "shahawāti"
+            },
+            {
+              "position": 3,
+              "text": "النَّفْسِ",
+              "transcription": "n-nafsi"
+            },
+            {
+              "position": 4,
+              "text": "ثُمَّ",
+              "transcription": "thumma"
+            },
+            {
+              "position": 5,
+              "text": "عَلَ",
+              "transcription": "ʿala"
+            },
+            {
+              "position": 6,
+              "text": "مَصَآ",
+              "transcription": "maṣa"
+            },
+            {
+              "position": 7,
+              "text": "ئِبَ",
+              "transcription": "iba"
+            },
+            {
+              "position": 8,
+              "text": "رَبَّنَا",
+              "transcription": "rabbanā"
+            },
+            {
+              "position": 9,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 10,
+              "text": "هَذِهِ",
+              "transcription": "hadhihi"
+            },
+            {
+              "position": 11,
+              "text": "الدَّارِ",
+              "transcription": "d-dāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 16,
+          "key": "1:16",
+          "text": "وَالصَّبْرُ فِي نِعَمٍ لَمْ أُحْصِ عِدَّ تَهَا وَشُكْرُ يَا رَبِّ أَعْتَانِي كَإِحْصَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَالصَّبْرُ",
+              "transcription": "wāṣṣabru"
+            },
+            {
+              "position": 1,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 2,
+              "text": "نِعَمٍ",
+              "transcription": "niʿamin"
+            },
+            {
+              "position": 3,
+              "text": "لَمْ",
+              "transcription": "lam"
+            },
+            {
+              "position": 4,
+              "text": "أُحْصِ",
+              "transcription": "uḥṣi"
+            },
+            {
+              "position": 5,
+              "text": "عِدَّ",
+              "transcription": "ʿidda"
+            },
+            {
+              "position": 6,
+              "text": "تَهَا",
+              "transcription": "tahā"
+            },
+            {
+              "position": 7,
+              "text": "وَشُكْرُ",
+              "transcription": "washukru"
+            },
+            {
+              "position": 8,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 9,
+              "text": "رَبِّ",
+              "transcription": "rabbi"
+            },
+            {
+              "position": 10,
+              "text": "أَعْتَانِي",
+              "transcription": "aʿtānī"
+            },
+            {
+              "position": 11,
+              "text": "كَإِحْصَارِ",
+              "transcription": "ka'iḥṣāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 17,
+          "key": "1:17",
+          "text": "وَلَيْسَ بِرُكَ مَخْصُوصًا بِمَنْ حَصُنَتْ حَالاَتُهُ ذَا امْتِنَانِ قَصْدَ أَبْرَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَلَيْسَ",
+              "transcription": "walaysa"
+            },
+            {
+              "position": 1,
+              "text": "بِرُكَ",
+              "transcription": "biruka"
+            },
+            {
+              "position": 2,
+              "text": "مَخْصُوصًا",
+              "transcription": "makhṣūṣan"
+            },
+            {
+              "position": 3,
+              "text": "بِمَنْ",
+              "transcription": "biman"
+            },
+            {
+              "position": 4,
+              "text": "حَصُنَتْ",
+              "transcription": "ḥaṣunat"
+            },
+            {
+              "position": 5,
+              "text": "حَالاَتُهُ",
+              "transcription": "ḥālatuhu"
+            },
+            {
+              "position": 6,
+              "text": "ذَا",
+              "transcription": "dhā"
+            },
+            {
+              "position": 7,
+              "text": "امْتِنَانِ",
+              "transcription": "mtināni"
+            },
+            {
+              "position": 8,
+              "text": "قَصْدَ",
+              "transcription": "qaṣda"
+            },
+            {
+              "position": 9,
+              "text": "أَبْرَارِي",
+              "transcription": "abrārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 18,
+          "key": "1:18",
+          "text": "وَلاَ تَكِلْنِي إِلَي أَمَّارَتِي عِوَجًا وَلاَ شِكَايَةَ أَسْقَامِي لِأَغْيَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَلاَ",
+              "transcription": "wala"
+            },
+            {
+              "position": 1,
+              "text": "تَكِلْنِي",
+              "transcription": "takilnī"
+            },
+            {
+              "position": 2,
+              "text": "إِلَي",
+              "transcription": "ilay"
+            },
+            {
+              "position": 3,
+              "text": "أَمَّارَتِي",
+              "transcription": "ammāratī"
+            },
+            {
+              "position": 4,
+              "text": "عِوَجًا",
+              "transcription": "ʿiwajan"
+            },
+            {
+              "position": 5,
+              "text": "وَلاَ",
+              "transcription": "wala"
+            },
+            {
+              "position": 6,
+              "text": "شِكَايَةَ",
+              "transcription": "shikāyata"
+            },
+            {
+              "position": 7,
+              "text": "أَسْقَامِي",
+              "transcription": "asqāmī"
+            },
+            {
+              "position": 8,
+              "text": "لِأَغْيَارِ",
+              "transcription": "li'aghyāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 19,
+          "key": "1:19",
+          "text": "إِنِي أَتَيْتُكَ بِالْأَدْنَاسِ مُلْتَبِسًا وَلاَ يِدَ نَّسُ بَتَحْرَ العَفْوِ أَكْدَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "إِنِي",
+              "transcription": "inī"
+            },
+            {
+              "position": 1,
+              "text": "أَتَيْتُكَ",
+              "transcription": "ataytuka"
+            },
+            {
+              "position": 2,
+              "text": "بِالْأَدْنَاسِ",
+              "transcription": "bil'adnāsi"
+            },
+            {
+              "position": 3,
+              "text": "مُلْتَبِسًا",
+              "transcription": "multabisan"
+            },
+            {
+              "position": 4,
+              "text": "وَلاَ",
+              "transcription": "wala"
+            },
+            {
+              "position": 5,
+              "text": "يِدَ",
+              "transcription": "yida"
+            },
+            {
+              "position": 6,
+              "text": "نَّسُ",
+              "transcription": "nasu"
+            },
+            {
+              "position": 7,
+              "text": "بَتَحْرَ",
+              "transcription": "bataḥra"
+            },
+            {
+              "position": 8,
+              "text": "العَفْوِ",
+              "transcription": "l-ʿafwi"
+            },
+            {
+              "position": 9,
+              "text": "أَكْدَارِي",
+              "transcription": "akdārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 20,
+          "key": "1:20",
+          "text": "لَوْ لَمْ تَكُنْ رَّحْمَةُ الرَّحْمَانِ قَدْ سَبَقَتْ لَمِتٌّ مِنْ هَيْبَةٍ فِي تِيهِ أَخْطَارِي",
+          "words": [
+            {
+              "position": 0,
+              "text": "لَوْ",
+              "transcription": "law"
+            },
+            {
+              "position": 1,
+              "text": "لَمْ",
+              "transcription": "lam"
+            },
+            {
+              "position": 2,
+              "text": "تَكُنْ",
+              "transcription": "takun"
+            },
+            {
+              "position": 3,
+              "text": "رَّحْمَةُ",
+              "transcription": "raḥmatu"
+            },
+            {
+              "position": 4,
+              "text": "الرَّحْمَانِ",
+              "transcription": "r-raḥmāni"
+            },
+            {
+              "position": 5,
+              "text": "قَدْ",
+              "transcription": "qad"
+            },
+            {
+              "position": 6,
+              "text": "سَبَقَتْ",
+              "transcription": "sabaqat"
+            },
+            {
+              "position": 7,
+              "text": "لَمِتٌّ",
+              "transcription": "lamittun"
+            },
+            {
+              "position": 8,
+              "text": "مِنْ",
+              "transcription": "min"
+            },
+            {
+              "position": 9,
+              "text": "هَيْبَةٍ",
+              "transcription": "haybatin"
+            },
+            {
+              "position": 10,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 11,
+              "text": "تِيهِ",
+              "transcription": "tīhi"
+            },
+            {
+              "position": 12,
+              "text": "أَخْطَارِي",
+              "transcription": "akhṭārī"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 21,
+          "key": "1:21",
+          "text": "يَا وَيْحَ نَفْسِيَ لَو وَّيْحٌ يُنَقِّذُنِي يَوْمَ أُلاَقِي ذُ نُوبًا مِثْلَ أَحْجَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 1,
+              "text": "وَيْحَ",
+              "transcription": "wayḥa"
+            },
+            {
+              "position": 2,
+              "text": "نَفْسِيَ",
+              "transcription": "nafsiya"
+            },
+            {
+              "position": 3,
+              "text": "لَو",
+              "transcription": "law"
+            },
+            {
+              "position": 4,
+              "text": "وَّيْحٌ",
+              "transcription": "wayḥun"
+            },
+            {
+              "position": 5,
+              "text": "يُنَقِّذُنِي",
+              "transcription": "yunaqqidhunī"
+            },
+            {
+              "position": 6,
+              "text": "يَوْمَ",
+              "transcription": "yawma"
+            },
+            {
+              "position": 7,
+              "text": "أُلاَقِي",
+              "transcription": "ulaqī"
+            },
+            {
+              "position": 8,
+              "text": "ذُ",
+              "transcription": "dhu"
+            },
+            {
+              "position": 9,
+              "text": "نُوبًا",
+              "transcription": "nūban"
+            },
+            {
+              "position": 10,
+              "text": "مِثْلَ",
+              "transcription": "mithla"
+            },
+            {
+              "position": 11,
+              "text": "أَحْجَارِ",
+              "transcription": "aḥjāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 22,
+          "key": "1:22",
+          "text": "إِنْ قُلْتَ يَا أَيُّهَا الْإِبْسَانُ عَاتِبَنَا فَمَآ أُجِيبُكَ ذَاكَ الْيَوْمَ يَا عَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "إِنْ",
+              "transcription": "in"
+            },
+            {
+              "position": 1,
+              "text": "قُلْتَ",
+              "transcription": "qulta"
+            },
+            {
+              "position": 2,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 3,
+              "text": "أَيُّهَا",
+              "transcription": "ayyuhā"
+            },
+            {
+              "position": 4,
+              "text": "الْإِبْسَانُ",
+              "transcription": "l-'ibsānu"
+            },
+            {
+              "position": 5,
+              "text": "عَاتِبَنَا",
+              "transcription": "ʿātibanā"
+            },
+            {
+              "position": 6,
+              "text": "فَمَآ",
+              "transcription": "fama"
+            },
+            {
+              "position": 7,
+              "text": "أُجِيبُكَ",
+              "transcription": "ujībuka"
+            },
+            {
+              "position": 8,
+              "text": "ذَاكَ",
+              "transcription": "dhāka"
+            },
+            {
+              "position": 9,
+              "text": "الْيَوْمَ",
+              "transcription": "l-yawma"
+            },
+            {
+              "position": 10,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 11,
+              "text": "عَارِ",
+              "transcription": "ʿāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 23,
+          "key": "1:23",
+          "text": "فَاسْتُرْ هُنَاكَ كَمَا فِي ذِي مَعَآئِبَنَا يَا اللَهُ يَا رَبِّ زَحْزِحْنِي عَنِ النَّارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "فَاسْتُرْ",
+              "transcription": "fāstur"
+            },
+            {
+              "position": 1,
+              "text": "هُنَاكَ",
+              "transcription": "hunāka"
+            },
+            {
+              "position": 2,
+              "text": "كَمَا",
+              "transcription": "kamā"
+            },
+            {
+              "position": 3,
+              "text": "فِي",
+              "transcription": "fī"
+            },
+            {
+              "position": 4,
+              "text": "ذِي",
+              "transcription": "dhī"
+            },
+            {
+              "position": 5,
+              "text": "مَعَآئِبَنَا",
+              "transcription": "maʿa’āibanā"
+            },
+            {
+              "position": 6,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 7,
+              "text": "اللَهُ",
+              "transcription": "l-lahu"
+            },
+            {
+              "position": 8,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 9,
+              "text": "رَبِّ",
+              "transcription": "rabbi"
+            },
+            {
+              "position": 10,
+              "text": "زَحْزِحْنِي",
+              "transcription": "zaḥziḥnī"
+            },
+            {
+              "position": 11,
+              "text": "عَنِ",
+              "transcription": "ʿani"
+            },
+            {
+              "position": 12,
+              "text": "النَّارِ",
+              "transcription": "n-nāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 24,
+          "key": "1:24",
+          "text": "وَوَالِدَيَّ وَأَسْيَاخِي وَشِيعَتِنَا أَحِبَّتِي وَذَوْيَ الْإِسْلاَمِ يَا بَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَوَالِدَيَّ",
+              "transcription": "wawālidayya"
+            },
+            {
+              "position": 1,
+              "text": "وَأَسْيَاخِي",
+              "transcription": "wa'asyākhī"
+            },
+            {
+              "position": 2,
+              "text": "وَشِيعَتِنَا",
+              "transcription": "washīʿatinā"
+            },
+            {
+              "position": 3,
+              "text": "أَحِبَّتِي",
+              "transcription": "aḥibbatī"
+            },
+            {
+              "position": 4,
+              "text": "وَذَوْيَ",
+              "transcription": "wadhawya"
+            },
+            {
+              "position": 5,
+              "text": "الْإِسْلاَمِ",
+              "transcription": "l-'islami"
+            },
+            {
+              "position": 6,
+              "text": "يَا",
+              "transcription": "yā"
+            },
+            {
+              "position": 7,
+              "text": "بَارِ",
+              "transcription": "bāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 25,
+          "key": "1:25",
+          "text": "أَزْكَى صَلَاةٍ وَتَسْلِمٍ عَلَى قَمَرٍ مِنْ نُورِهِ نَيْلُ مَا نِلْنَا مِنَ اَنْوَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "أَزْكَى",
+              "transcription": "azká"
+            },
+            {
+              "position": 1,
+              "text": "صَلَاةٍ",
+              "transcription": "ṣalātin"
+            },
+            {
+              "position": 2,
+              "text": "وَتَسْلِمٍ",
+              "transcription": "wataslimin"
+            },
+            {
+              "position": 3,
+              "text": "عَلَى",
+              "transcription": "ʿalá"
+            },
+            {
+              "position": 4,
+              "text": "قَمَرٍ",
+              "transcription": "qamarin"
+            },
+            {
+              "position": 5,
+              "text": "مِنْ",
+              "transcription": "min"
+            },
+            {
+              "position": 6,
+              "text": "نُورِهِ",
+              "transcription": "nūrihi"
+            },
+            {
+              "position": 7,
+              "text": "نَيْلُ",
+              "transcription": "naylu"
+            },
+            {
+              "position": 8,
+              "text": "مَا",
+              "transcription": "mā"
+            },
+            {
+              "position": 9,
+              "text": "نِلْنَا",
+              "transcription": "nilnā"
+            },
+            {
+              "position": 10,
+              "text": "مِنَ",
+              "transcription": "mina"
+            },
+            {
+              "position": 11,
+              "text": "اَنْوَارِ",
+              "transcription": "anwāri"
+            }
+          ],
+          "translations": []
+        },
+        {
+          "number": 26,
+          "key": "1:26",
+          "text": "وَالآلِ وَالصَّحْبِ أَقْمَارِ الْعُفَاةِ وَمَنْ سَبِيلَهُمْ سَلَكُواْ رَبِّ مِنَ اَبْرَارِ",
+          "words": [
+            {
+              "position": 0,
+              "text": "وَالآلِ",
+              "transcription": "wāl’āli"
+            },
+            {
+              "position": 1,
+              "text": "وَالصَّحْبِ",
+              "transcription": "wāṣṣaḥbi"
+            },
+            {
+              "position": 2,
+              "text": "أَقْمَارِ",
+              "transcription": "aqmāri"
+            },
+            {
+              "position": 3,
+              "text": "الْعُفَاةِ",
+              "transcription": "l-ʿufāti"
+            },
+            {
+              "position": 4,
+              "text": "وَمَنْ",
+              "transcription": "waman"
+            },
+            {
+              "position": 5,
+              "text": "سَبِيلَهُمْ",
+              "transcription": "sabīlahum"
+            },
+            {
+              "position": 6,
+              "text": "سَلَكُواْ",
+              "transcription": "salakū"
+            },
+            {
+              "position": 7,
+              "text": "رَبِّ",
+              "transcription": "rabbi"
+            },
+            {
+              "position": 8,
+              "text": "مِنَ",
+              "transcription": "mina"
+            },
+            {
+              "position": 9,
+              "text": "اَبْرَارِ",
+              "transcription": "abrāri"
+            }
+          ],
+          "translations": []
+        }
+      ],
+      "translated_names": []
+    }
+  ],
+  "translated_names": [],
+  "audios": [],
+  "translated_lang": []
+}

@@ -1,1 +1,1 @@
--e git+ssh://git@github.com/Tariha/transcription.git@66ceb0b5de7cc7a1d96fbb46b4ec9152d83af9d9#egg=transcription
+git+https://git@github.com/Tariha/transcription.git#egg=transcription

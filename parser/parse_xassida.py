@@ -6,7 +6,7 @@ from itertools import groupby
 from pathlib import Path
 
 from models import Chapter, Verse, Word, Xassida
-from transcription.transliterator import ArabTransliterator
+from transliterator import ArabTransliterator
 
 to_unicode = ArabTransliterator()
 
@@ -53,7 +53,7 @@ def parse_chapter(lines, lang):
 
 def parse_verse(i, verse, chap_number, lang):
     verse = verse.strip()
-    words = list(filter(len, verse.split()))
+    words = list(filter(len, map(str.strip, verse.split())))
     verse_data = {'number':i, 'key':f"{chap_number}:{i}", 'text':verse}
     if not lang:
         phonetic = to_unicode.translate(" ".join(words)).split()

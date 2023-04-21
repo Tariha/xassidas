@@ -1,48 +1,45 @@
-# Projet de numérisation des Xassidas en arabe
+## Numérisation des Xassidas en TXT (format txt)
 
-Ce projet a pour but de numériser les Xassidas, des poèmes religieux chantés dans les confréries soufies du Sénégal. Les Xassidas sont une partie importante de la culture sénégalaise et de la pratique religieuse soufie, et leur numérisation permettra de les rendre plus accessibles à un public plus large.
+Ce projet vise à numériser les Xassidas en format txt(texte) et les rendre plus accessibles aux utilisateurs avec l'application web **Tariha.sn**(en developpement).
 
-## Technologies utilisées
+Le projet est entièrement open-source et est ouvert aux contributions.
 
-Ce projet utilise les technologies suivantes :
-- OCR si (Optical Character Recognition) pour la reconnaissance des caractères arabes à partir d'images numérisées
-- Python pour les mettre en format consommable par l'API
-- Git et Github pour le contrôle de version et le partage du code
+### Technologies utilisées
 
-## Étapes du processus de numérisation
+- [Arabic Keyboard Online LEXILOGOS](https://www.lexilogos.com/keyboard/arabic.htm)[Arabic Keyboard Online LEXILOGOS](https://www.lexilogos.com/keyboard/arabic.htm): Outil permettant d'écrire en arabe
+- Python3: Les différents scripts (transcription, formattage des fichiers) ont été écrits en python
 
-1. Sélectionner les Xassidas
-2. Numériser les Xassidas en utilisant un scanner ou un appareil photo de haute qualité.
-3. Utiliser l'OCR pour extraire les caractères arabes à partir des images numérisées.
-4. Vérifier et corriger les erreurs de reconnaissance des caractères manuellement (**les accents surtout**).
-5. Organiser les Xassidas en fonction des tariha et auteurs.
+### Étapes du processus de numérisation
 
-## Contributions
+1. La saisie de texte d'un xassida (voir <a href="#format">**Format à respecter**</a> ci dessous)
+2. Vérifier et corriger les erreurs
+3. Organiser les Xassidas en fonction des tariha et auteurs (voir <a href="#structure">structure</a>).
+   
+   **NB**: **Veillez bien vérifier la saisie des accents car la transcription en français se fait automatiquement voir [Transcription](https://github.com/Tariha/transcription)**
 
-Les contributions sont les bienvenues! Si vous souhaitez contribuer à ce projet, voici quelques suggestions :
-- Ajouter des Xassidas supplémentaires à la base de données.
-- Corriger et ajouter les versions numériques déjà existantes.
-- Voir le format à respecter ci-dessous
 
-## Format à Respecter
 
-Les xassidas et leur traductions (si disponible) doivent respecter ce format
+### <h3 id="format">Format à Respecter</h3>
 
-- **Les Chapitres** commencent par trois(3) **Diez(#)**
+La saisie des xassidas et leur traductions(si disponible) doit respecter ce format
+
+- **Les Chapitres**(s'ils exitent) $commencent$ par trois(3) **Diez(#)** suivit du titre du chapitre
+
+- Si le xassida ne comporte pas de chapitre le ficher doit commence par trois(3) **Diez(#)**
 
 - **Les versets** doivent être séparés par deux(2) **Diez(#)**
   
-  Ex:
+  **Ex**: (voir aussi les xassidas déjà existant)
 
 ![example.png](example.png)
 
-## Pour les Developpeurs
+### Pour les Developpeurs
 
 **Requirements**
 
 - **Python 3.9 ou Supérieur**
 
-## Structure des fichiers
+#### <h3 id="structure">Structure des fichiers</h3>
 
 ```bash
 └── xassidas
@@ -62,76 +59,76 @@ Les xassidas et leur traductions (si disponible) doivent respecter ce format
                 ├── abouna.json
 ```
 
-## Pour les Developpeurs
-  Un script permet d'automatiquement générer les transciptions pour ce faire,
-  le respect de accent(mass) est obligatoire.
-
-  **Dans le dossier parser**
+#### Les scripts
 
 + **parse_xassida.py**:
   
     Ce script sera utilisé pour extraire les xassidas et leur traductions en
     format json.
   
-    ```bash
-    python parse_xassida.py [-t tariha] [-a auteur] [-x xassida]
-    ```
-    json output
-    ```json
-    {
-      "name": "sample",
-      "chapters": [
-        {
-          "name": "الفاتحة",
-          "number": 1,
-          "verses": [
-            {
-              "number": 0,
-              "key": "1:0",
-              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-              "words": [
-                {
-                  "position": 0,
-                  "text": "بِسْمِ",
-                  "transcription": "bismi"
-                },
-                {
-                  "position": 1,
-                  "text": "اللَّهِ",
-                  "transcription": "l-lahi"
-                },
-                {
-                  "position": 2,
-                  "text": "الرَّحْمَٰنِ",
-                  "transcription": "r-raḥmāni"
-                },
-                {
-                  "position": 3,
-                  "text": "الرَّحِيمِ",
-                  "transcription": "r-raḥīmi"
-                }
-              ],
-              "translations": []
-            },
-            ...
-          ],
-        },
-        ...
-      ],
-      "translated_names": [],
-      "audios": [],
-      "translated_lang": []
-      }
-     ```
+  ```bash
+  python parse_xassida.py [-t tariha] [-a auteur] [-x xassida]
+  ```
   
+    json output
+  
+  ```json
+  {
+    "name": "sample",
+    "chapters": [
+      {
+        "name": "الفاتحة",
+        "number": 1,
+        "verses": [
+          {
+            "number": 0,
+            "key": "1:0",
+            "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "words": [
+              {
+                "position": 0,
+                "text": "بِسْمِ",
+                "transcription": "bismi"
+              },
+              {
+                "position": 1,
+                "text": "اللَّهِ",
+                "transcription": "l-lahi"
+              },
+              {
+                "position": 2,
+                "text": "الرَّحْمَٰنِ",
+                "transcription": "r-raḥmāni"
+              },
+              {
+                "position": 3,
+                "text": "الرَّحِيمِ",
+                "transcription": "r-raḥīmi"
+              }
+            ],
+            "translations": []
+          },
+          ...
+        ],
+      },
+      ...
+    ],
+    "translated_names": [],
+    "audios": [],
+    "translated_lang": []
+    }
+  ```
+
 + **parse_translation.py**:
   
-    Ce script sera utilisé pour extraire les traductions s'ils existent.
+  Ce script sera utilisé pour extraire et inserer dans le ficher ci-dessus les traductions s'ils existent .
   
   ```bash
   python parse_translations.py [-t tariha] [-a auteur] [-x xassida]
   ```
+  
   **json output**
+  
   ```json
   {
     "name": "sample",
@@ -184,8 +181,15 @@ Les xassidas et leur traductions (si disponible) doivent respecter ce format
     "translated_lang": []
   }
   ```
-## Licence
+  
+  - **parse_author.py**
+    
+    Ce script permet de regrouper les xassidas(**json**) d'un auteur dans un même fichier json
+    
+    ```shell
+    python parse_author.py [-t tariha] [-a auteur]
+    ```
+  
+  ## Licence
 
-Ce projet est sous licence MIT. Veuillez consulter le fichier LICENSE pour plus d'informations.
-
-
+        Ce projet est sous licence MIT. Veuillez consulter le fichier LICENSE pour plus         d'informations.

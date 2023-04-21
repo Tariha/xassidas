@@ -70,6 +70,6 @@ if __name__ == '__main__':
     glob_path += f"{args.author}/" if args.author else "*/" 
     glob_path += f"{args.xassida}/**/*.txt" if args.xassida else "**/*.txt" 
     # start parsing files
-    for file in Path("../xassidas").glob(glob_path):
+    for file in Path("xassidas").glob(glob_path):
         depth = 1 if file.parents[4].stem=="xassida" else 0
         parse_xassida(file, depth)

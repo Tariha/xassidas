@@ -23,5 +23,5 @@ if __name__ == '__main__':
     glob_path =  f"{args.tariha}/" if args.tariha else "*/"
     glob_path += f"{args.author}/" if args.author else "*/" 
     # start parsing
-    for file in Path("../xassidas").glob(glob_path):
+    for file in Path("xassidas").glob(glob_path):
         parse_author_data(file)

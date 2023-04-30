@@ -28,7 +28,7 @@ jobs:
 
       - name: Get file changes
         id: file_changes
-        uses: trilom/file-changes-action@v1.2.3
+        uses: trilom/file-changes-action@v1.2.4
 
       - name: Run Python parse_xassida script on changes
         if: ${{ steps.file_changes.outputs.files }}
@@ -39,5 +39,6 @@ jobs:
             if [[ $file == xassidas/**/*.txt ]]; then
               name=$(basename $file | cut -f 1 -d '.')
               python parse_xassida.py -x $name
+              python parse_translations.py -x $name
             fi
           done

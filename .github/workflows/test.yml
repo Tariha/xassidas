@@ -33,11 +33,11 @@ jobs:
       - name: Run Python parse_xassida script on changes
         if: ${{ steps.file_changes.outputs.files }}
         run: |
-          matched_files=$(echo "${{ steps.file_changes.outputs.matched_files }}")
-          IFS=',' read -ra files <<< "$matched_files"
-          for file in "${files[@]}"; do
+          matched_files=$(echo '${{ steps.file_changes.outputs.files }}')
+          files=$(echo "$matched_files" | jq -r '.[]')
+          for file in ${files[@]}; do
             if [[ $file == xassidas/**/*.txt ]]; then
-            filename = $(basename $file | cut -f 1 -d '.')
-            python parse_xassida.py -x $filename
-          fi
+              name=$(basename $file | cut -f 1 -d '.')
+              python parse_xassida.py -x $name
+            fi
           done

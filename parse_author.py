@@ -5,7 +5,12 @@ import argparse
 import json
 
 def parse_author_data(file):
-    author_data = {'name':file.stem, 'tariha':file.parent.stem, 'xassidas':[]}
+    author_data = {'name':file.stem, 'tariha':file.parent.stem, 'xassidas':[], 'infos':[]}
+    for info in file.glob("*.md"):
+        print("Adding author info")
+        info_data = info.read_text()
+        author_data['infos'].append({'lang':'fr', 'text':info_data})
+        
     for xassida in file.glob('*/*.json'):
         print("Adding %s => %s"%(file.stem, xassida.stem))
         xassida_data = json.loads(xassida.read_text())

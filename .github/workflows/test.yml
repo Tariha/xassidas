@@ -35,10 +35,20 @@ jobs:
         run: |
           matched_files=$(echo '${{ steps.file_changes.outputs.files }}')
           files=$(echo "$matched_files" | jq -r '.[]')
+          processed=()
           for file in ${files[@]}; do
             if [[ $file == xassidas/**/*.txt ]]; then
               name=$(basename $file | cut -f 1 -d '.')
-              python parse_xassida.py -x $name
-              python parse_translations.py -x $name
+              if [[ " ${processed[@]} " =~ " $name " ]]; then
+                echo "Skipping duplicate xassida $name"
+              else
+                if python parse_xassida.py -x "$name" && python parse_translations.py -x "$name"; then
+                  echo "Processed xassida $name"
+                  processed+=("$name")
+                else
+                  echo "Failed to process xassida $name"
+                  exit 1
+                fi
+              fi
             fi
           done

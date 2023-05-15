@@ -16,7 +16,7 @@
         - code
           
      - name: Pull the project from Github
-       command: git submodule update --init --recursive
+       command: git submodule update --remote --recursive
        args:
          chdir: "{{ project_dir }}"
        tags:

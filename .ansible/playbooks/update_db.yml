@@ -1,0 +1,33 @@
+---
+
+- name: Update the database
+  hosts: apiservers
+
+  vars:
+    project_name: xassida
+    project_dir: /home/{{ ansible_user }}/{{ project_name }}
+
+  tasks:
+     - name: Pull the project from Github
+       command: git pull
+       args:
+         chdir: "{{ project_dir }}"
+       tags:
+        - code
+          
+     - name: Pull the project from Github
+       command: git submodule update --init --recursive
+       args:
+         chdir: "{{ project_dir }}"
+       tags:
+        - code
+
+     - name: Make update_db.sh executable
+       file:
+         path: "{{ project_dir }}/update_db.sh"
+         mode: u+x
+
+     - name: Parse and Insert the xassida to database
+       command: ./update_db.sh {{ xassidas }}
+       args:
+         chdir: "{{ project_dir }}"

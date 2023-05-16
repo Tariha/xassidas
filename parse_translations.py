@@ -38,5 +38,5 @@ if __name__ == "__main__":
     glob_path += f"{args.xassida}/**/*.json" if args.xassida else "**/*.json"
     # start parsing translations
     for file in Path("xassidas").glob(glob_path):
-        if file.parent.stem != file.stem:
+        if file.parent.stem != file.stem and file.parents[2].stem != "xassidas":
             parse_traduction(file)

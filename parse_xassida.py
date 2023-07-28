@@ -32,7 +32,10 @@ def parse_xassida(file, depth):
 def parse_file(file, depth):
     """Parse the file"""
     lang = False if depth == 0 else True
-    lines = file.read_bytes().decode("utf-8").split("\n")
+    encoding = "utf-8-sig"
+    if lang and file.parent.stem != "en":
+        encoding = "ISO-8859-1"
+    lines = file.read_bytes().decode(encoding).split("\n")
     lines = [l + " " for l in lines]
     return parse_chapter(lines, lang)
 
@@ -61,9 +64,14 @@ def parse_verse(i, verse, chap_number, lang):
     verse_data = {"number": i, "key": f"{chap_number}:{i}", "text": verse}
     if not lang:
         phonetic = to_unicode.translate(" ".join(words)).split()
-        verse_data["words"] = list(
-            map(lambda x: Word(*x, phonetic[x[0]]), enumerate(words))
-        )
+        try:
+            verse_data["words"] = list(
+                map(lambda x: Word(*x, phonetic[x[0]]), enumerate(words))
+            )
+        except:
+            print("Verset numéro: ", i)
+            print("mots arabs: ", len(words), words)
+            print("transcription: ", len(phonetic), phonetic)
     return Verse(**verse_data)
 
 

@@ -67,9 +67,9 @@ jobs:
           key: '${{ secrets.SECRET_SSH_KEY }}'
           inventory: |
             [apiservers]
-            server1 ansible_host=134.209.180.132 ansible_user=root
+            server1 ansible_host=162.19.78.107 ansible_user=debian
           options: |
             --extra-vars xassidas=${{ env.XASSIDAS }}
-            --user root
+            --user debian
             --ssh-extra-args "-o StrictHostKeyChecking=no"
             --verbose

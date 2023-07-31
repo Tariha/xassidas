@@ -51,7 +51,8 @@ class Verse:
     number: int
     key: str
     text: str
-    words: List[Word] = None
+    words: List[Word] = field(default_factory=list)
+    transcription: str = ""
     translations: List[VerseTranslation] = field(default_factory=list)
 
 

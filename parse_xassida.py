@@ -4,10 +4,10 @@ from dataclasses import asdict
 from itertools import groupby
 from pathlib import Path
 
-from models import Chapter, Verse, Word, Xassida
+from models import Chapter, Verse, Xassida
 from transliterator import ArabTransliterator
 
-to_unicode = ArabTransliterator()
+transliterator = ArabTransliterator()
 
 
 def parse_xassida(file, depth):
@@ -16,7 +16,6 @@ def parse_xassida(file, depth):
     else it's a translation text
     """
     xassida = file.absolute().parents[depth]
-    author = xassida.parent
     print("Parsing %s " % (file.parent))
     # parse the chapters with verses and words
     xassida_data = {"name": xassida.stem}
@@ -30,21 +29,22 @@ def parse_xassida(file, depth):
 
 
 def parse_file(file, depth):
-    """Parse the file"""
+    """Retrieve the lines"""
     lang = False if depth == 0 else True
-    encoding = "utf-8-sig"
-    if lang and file.parent.stem != "en":
-        encoding = "ISO-8859-1"
-    lines = file.read_bytes().decode(encoding).split("\n")
-    lines = [l + " " for l in lines]
+    try:
+        lines = file.read_bytes().decode("utf-8-sig").split("\n")
+    except Exception:
+        lines = file.read_bytes().decode("ISO-8859-1").split("\n")
+    lines = [line + " " for line in lines]
     return parse_chapter(lines, lang)
 
 
 def parse_chapter(lines, lang):
+    """Parse the file by finding chapters and verses"""
     chapters = []
     chap_number = 0
     for is_chap, vers in groupby(lines, key=lambda x: x.startswith("###")):
-        # if k == True means that its a chapter
+        # we group by chapters ( lines starting with three htag )
         if is_chap:
             chap_number += 1
             chapters.append({"name": next(vers)[3:].strip(), "number": chap_number})
@@ -59,19 +59,15 @@ def parse_chapter(lines, lang):
 
 
 def parse_verse(i, verse, chap_number, lang):
+    """Parse a single verse"""
     verse = verse.strip()
+    # we remove any spaces sourounding words
     words = list(filter(len, map(str.strip, verse.split())))
+    verse = " ".join(words)
     verse_data = {"number": i, "key": f"{chap_number}:{i}", "text": verse}
     if not lang:
-        phonetic = to_unicode.translate(" ".join(words)).split()
-        try:
-            verse_data["words"] = list(
-                map(lambda x: Word(*x, phonetic[x[0]]), enumerate(words))
-            )
-        except:
-            print("Verset numéro: ", i)
-            print("mots arabs: ", len(words), words)
-            print("transcription: ", len(phonetic), phonetic)
+        transcription = transliterator.translate(verse)
+        verse_data["transcription"] = transcription
     return Verse(**verse_data)
 
 

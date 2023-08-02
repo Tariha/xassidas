@@ -4,7 +4,7 @@ from dataclasses import asdict
 from itertools import groupby
 from pathlib import Path
 
-from models import Chapter, Verse, Xassida
+from models import Chapter, Verse, Xassida, Word
 from transliterator import ArabTransliterator
 
 transliterator = ArabTransliterator()
@@ -67,7 +67,11 @@ def parse_verse(i, verse, chap_number, lang):
     verse_data = {"number": i, "key": f"{chap_number}:{i}", "text": verse}
     if not lang:
         transcription = transliterator.translate(verse)
+        phonetics = transcription.split()
         verse_data["transcription"] = transcription
+        verse_data["words"] = list(
+            map(lambda x: Word(*x, phonetics[x[0]]), enumerate(words))
+        )
     return Verse(**verse_data)
 
 

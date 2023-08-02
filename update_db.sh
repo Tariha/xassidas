@@ -2,6 +2,7 @@
 
 # Update the database when a new 
 # xassida is added
+export DJANGO_SETTINGS_MODULE=xassida.production
 
 processed=()
 

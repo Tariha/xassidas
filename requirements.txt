@@ -1,1 +1,1 @@
-git+https://git@github.com/Tariha/transcription.git#egg=transcription
+arab-transcription=1.0.0

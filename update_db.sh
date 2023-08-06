@@ -9,6 +9,7 @@ processed=()
 # git the list of midified files
 modified_files=$(git diff --name-only)
 
+echo "changed files: $modified_files"
 for xassida in $modified_files
 do
   if [[ $xassida == xassidas/**/*.txt ]]; then

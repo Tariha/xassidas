@@ -3,11 +3,13 @@
 # Update the database when a new 
 # xassida is added
 export DJANGO_SETTINGS_MODULE=xassida.production
-
 processed=()
 
 # git the list of midified files
-git diff --name-only HEAD^..HEAD | while read -r file; do
+files=$(git diff --name-only HEAD^..HEAD)
+echo $files
+
+for xassida in $files; do
   if [[ $xassida == xassidas/**/*.txt ]]; then
     name=$( echo $xassida | cut -f 4 -d '/'  )
     author=$( echo $xassida | cut -f 3 -d '/'  )
@@ -25,4 +27,3 @@ git diff --name-only HEAD^..HEAD | while read -r file; do
     fi
   fi
 done;
-

@@ -7,11 +7,7 @@ export DJANGO_SETTINGS_MODULE=xassida.production
 processed=()
 
 # git the list of midified files
-modified_files=$(git diff --name-only)
-
-echo "changed files: $modified_files"
-for xassida in $modified_files
-do
+git diff --name-only HEAD^..HEAD | while read -r file; do
   if [[ $xassida == xassidas/**/*.txt ]]; then
     name=$( echo $xassida | cut -f 4 -d '/'  )
     author=$( echo $xassida | cut -f 3 -d '/'  )

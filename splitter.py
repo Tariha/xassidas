@@ -21,10 +21,13 @@ def parse_chapter(lines, file):
             number += 1
         else:
             verses = filter(len, "".join(vers).split("##"))
-            verses = "##\n".join(verses)
+            verses = map(lambda x: x.rstrip("\n").lstrip("\n").strip(), verses)
+            verses = filter(len, verses)
+            verses = "\n##\n".join(verses)
             output = file.parent / f"{number}.txt"
             print(f"Writing verses in chapter {number}")
             output.write_text(verses)
+    file.unlink()
 
 
 if __name__ == "__main__":

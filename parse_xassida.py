@@ -4,7 +4,7 @@ from dataclasses import asdict
 from itertools import groupby
 from pathlib import Path
 
-from models import Chapter, Verse, Xassida, Word
+from models import Chapter, Verse, Xassida
 from transliterator import ArabTransliterator
 
 transliterator = ArabTransliterator()

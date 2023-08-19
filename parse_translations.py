@@ -16,7 +16,7 @@ def parse_traduction(file):
 
     print("Parsing the %s version of %s" % (lang, file.stem))
     traduction_data = json.loads(file.read_text())
-    for i, chapter in enumerate(traduction_data["chapters"]):
+    for i, chapter in traduction_data["chapters"].items():
         name = {"lang": lang, "translation": chapter["name"], "transcription": ""}
         arab_data["chapters"][i]["translated_names"].append(name)
         for j, verse in enumerate(traduction_data["chapters"][i]["verses"]):
@@ -38,5 +38,5 @@ if __name__ == "__main__":
     glob_path += f"{args.xassida}/**/*.json" if args.xassida else "**/*.json"
     # start parsing translations
     for file in Path("xassidas").glob(glob_path):
-        if file.parent.stem != file.stem and file.parents[2].stem != "xassidas":
+        if len(file.parent.stem) == 2:
             parse_traduction(file)

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Dict
 
 
 @dataclass
@@ -67,7 +67,7 @@ class Chapter:
 @dataclass
 class Xassida:
     name: str
-    chapters: List[Chapter]
+    chapters: Dict[str, Chapter]
     translated_names: List[TranslatedName] = field(default_factory=list)
     audios: List[Audio] = field(default_factory=list)
     translated_lang: List = field(default_factory=list)

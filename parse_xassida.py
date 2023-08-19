@@ -1,61 +1,38 @@
 import argparse
 import json
 from dataclasses import asdict
-from itertools import groupby
 from pathlib import Path
-
 from models import Chapter, Verse, Xassida
 from transliterator import ArabTransliterator
 
 transliterator = ArabTransliterator()
 
 
-def parse_xassida(file, depth):
-    """Parse a single xassida file or xassida translation folder
+def parse_file(file, depth):
+    """
+    Parse a single xassida file or xassida translation folder
     depth == 0 means that it's the arabic text
     else it's a translation text
     """
-    xassida = file.absolute().parents[depth]
-    print("Parsing %s " % (file.parent))
-    # parse the chapters with verses and words
-    xassida_data = {"name": xassida.stem}
-    chapters = parse_file(file, depth)
-    xassida_data["chapters"] = list(map(lambda c: Chapter(**c), chapters))
-    # save the parsed xassida as json
-    result = asdict(Xassida(**xassida_data))
-    file = xassida if depth == 0 else file.parent
-    out_file = file / f"{xassida.stem}.json"
-    out_file.write_text(json.dumps(result, ensure_ascii=False))
+    # parse the chapter verses and words
+    verses = parse_chapter(file, depth, file.stem)
+    return Chapter("", int(file.stem), verses)
 
 
-def parse_file(file, depth):
+def parse_chapter(file, lang, number):
     """Retrieve the lines"""
     lang = False if depth == 0 else True
     try:
         lines = file.read_bytes().decode("utf-8-sig").split("\n")
     except Exception:
         lines = file.read_bytes().decode("ISO-8859-1").split("\n")
+
     lines = [line + " " for line in lines]
-    return parse_chapter(lines, lang)
-
-
-def parse_chapter(lines, lang):
-    """Parse the file by finding chapters and verses"""
-    chapters = []
-    chap_number = 0
-    for is_chap, vers in groupby(lines, key=lambda x: x.startswith("###")):
-        # we group by chapters ( lines starting with three htag )
-        if is_chap:
-            chap_number += 1
-            chapters.append({"name": next(vers)[3:].strip(), "number": chap_number})
-        else:
-            verses = filter(len, "".join(vers).split("##"))
-            verses_data = map(
-                lambda v: parse_verse(*v, chap_number, lang), enumerate(verses)
-            )
-            chapters[-1]["verses"] = list(verses_data)
-
-    return chapters
+    verses = filter(len, "".join(lines).split("##"))
+    verses_data = map(
+        lambda v: parse_verse(*v, number, lang), enumerate(verses)
+    )
+    return list(verses_data)
 
 
 def parse_verse(i, verse, chap_number, lang):
@@ -64,7 +41,7 @@ def parse_verse(i, verse, chap_number, lang):
     # we remove any spaces sourounding words
     words = list(filter(len, map(str.strip, verse.split())))
     verse = " ".join(words)
-    verse_data = {"number": i, "key": f"{chap_number}:{i}", "text": verse}
+    verse_data = {"number": i+1, "key": f"{chap_number}:{i+1}", "text": verse}
     if not lang:
         transcription = transliterator.translate(verse)
         verse_data["transcription"] = transcription
@@ -81,6 +58,26 @@ if __name__ == "__main__":
     glob_path += f"{args.author}/" if args.author else "*/"
     glob_path += f"{args.xassida}/**/*.txt" if args.xassida else "**/*.txt"
     # start parsing files
+    parsed_folders = set()
     for file in Path("xassidas").glob(glob_path):
-        depth = 0 if file.parent.stem == file.stem else 1
-        parse_xassida(file, depth)
+        depth = 1 if len(file.parent.stem)==2 else 0
+        chapter = parse_file(file, depth)
+        xassida = file.absolute().parents[depth]
+        parent = xassida if depth == 0 else file.parent
+
+        if xassida.stem not in parsed_folders:
+            print("Parsing xassida: ", xassida.parent.stem, "=>", xassida.stem)
+        # save the parsed xassida as json
+
+        out_file = parent / f"{xassida.stem}.json"
+        existing_data = {}
+        if out_file.exists():
+            with out_file.open("r") as output:
+                existing_data = json.load(output)
+
+        existing_data["name"] = xassida.stem
+        existing_data["chapters"] = existing_data.get("chapters", dict())
+        existing_data["chapters"][file.stem] = chapter
+        result = asdict(Xassida(**existing_data))
+        out_file.write_text(json.dumps(result, ensure_ascii=False))
+        parsed_folders.add(xassida.stem)

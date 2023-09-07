@@ -10,7 +10,7 @@
 
   tasks:
      - name: Pull the changes from github
-       command: git pull
+       command: git pull origin main
        args:
          chdir: "{{ data_dir }}"
        tags:

@@ -3,3 +3,4 @@ env
 **/*.json
 .DS_Store
 splitter.py
+.env

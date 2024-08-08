@@ -3,6 +3,7 @@ from pathlib import Path
 
 
 def format_file(file):
+    """format a file by seperating line by"""
     try:
         lines = file.read_bytes().decode("utf-8-sig").split("\n")
     except Exception:
@@ -17,7 +18,9 @@ def format_file(file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-f", "--folder", help="Format all (txt) files in folder and subfolders")
+    parser.add_argument(
+        "-f", "--folder", help="Format all (txt) files in folder and subfolders"
+    )
     args = parser.parse_args()
     path = Path(args.folder)
     # start parsing files

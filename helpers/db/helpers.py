@@ -29,7 +29,8 @@ def create_author(data, *args):
                 path=data["picture"],
                 file_options={"content-type": "image/png", "x-upsert": "true"},
             )
-        resp = supabase.table("author").upsert(data, on_conflict="slug").execute()
+        resp = supabase.table("author").upsert(
+            data, on_conflict="slug").execute()
         return resp.data[0]
     except Exception as e:
         raise Exception(f"Error inserting author: {e}")
@@ -42,7 +43,8 @@ def create_xassidas(data, author):
     data["slug"] = slugify(f"{author['slug']}*{data['name']}")
     # Assuming 'xassida' table in Supabase
     try:
-        resp = supabase.table("xassida").upsert(data, on_conflict="slug").execute()
+        resp = supabase.table("xassida").upsert(
+            data, on_conflict="slug").execute()
         return resp.data[0]
     except Exception as e:
         raise Exception(f"Error inserting Xassida: {e}")
@@ -56,7 +58,8 @@ def create_chapters(data, xassida):
     data["slug"] = slugify(f"{xassida['slug']}*{data['number']}")
     # Assuming 'Chapter' table in Supabase
     try:
-        resp = supabase.table("chapter").upsert(data, on_conflict="slug").execute()
+        resp = supabase.table("chapter").upsert(
+            data, on_conflict="slug").execute()
         return resp.data[0]
     except Exception as e:
         raise Exception(f"Error inserting Chapter: {e}")
@@ -70,7 +73,8 @@ def create_verses(data, chapter):
     data["slug"] = slugify(f"{chapter['slug']}*{data['number']}")
     # Assuming 'Verse' table in Supabase
     try:
-        resp = supabase.table("verse").upsert(data, on_conflict="slug").execute()
+        resp = supabase.table("verse").upsert(
+            data, on_conflict="slug").execute()
         return resp.data[0]
 
     except Exception as e:
@@ -82,7 +86,8 @@ def create_translations(data, verse):
     :param verse a Verse instance
     """
     data["verse_id"] = verse["id"]
-    data["slug"] = verse["slug"] if data["lang"]=="en" else f"{data['lang']}_{verse['slug']}"
+    data["slug"] = verse["slug"] if data["lang"] == "en" else f"{
+        data['lang']}_{verse['slug']}"
     # Assuming 'VerseTranslation' table in Supabase
     try:
         resp = (
@@ -100,7 +105,8 @@ def create_reciter(data, *args):
     data["slug"] = slugify(f"{data['tariha']}*{data['name']}")
     # Assuming 'Reciter' table in Supabase
     try:
-        resp = supabase.table("reciter").upsert(data, on_conflict="slug").execute()
+        resp = supabase.table("reciter").upsert(
+            data, on_conflict="slug").execute()
         return resp.data[0]
     except Exception as e:
         raise Exception(f"Error inserting Reciter: {e}")

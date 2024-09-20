@@ -3,7 +3,7 @@ import json
 from dataclasses import asdict
 from pathlib import Path
 from models import Chapter, Verse, Xassida
-from transliterator import ArabTransliterator
+from arab_transliterator.transliterator import ArabTransliterator
 
 transliterator = ArabTransliterator()
 
@@ -29,7 +29,8 @@ def parse_chapter(file, lang, number):
 
     lines = [line + " " for line in lines]
     verses = filter(len, "".join(lines).split("##"))
-    verses_data = map(lambda v: parse_verse(*v, number, lang), enumerate(verses))
+    verses_data = map(lambda v: parse_verse(
+        *v, number, lang), enumerate(verses))
     return list(verses_data)
 
 
@@ -39,7 +40,8 @@ def parse_verse(i, verse, chap_number, lang):
     # we remove any spaces sourounding words
     words = list(filter(len, map(str.strip, verse.split())))
     verse = " ".join(words)
-    verse_data = {"number": i + 1, "key": f"{chap_number}:{i+1}", "text": verse}
+    verse_data = {"number": i + 1,
+                  "key": f"{chap_number}:{i+1}", "text": verse}
     if not lang:
         transcription = transliterator.translate(verse)
         verse_data["transcription"] = transcription

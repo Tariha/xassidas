@@ -1,2 +1,5 @@
-arab-transcription
+arab-transliterator
+python-dotenv
+python-slugify
+supabase
 pyarabic
